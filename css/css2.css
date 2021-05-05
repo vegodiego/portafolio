@@ -1,0 +1,159 @@
+
+/*******************************************************Generalidades********************************************************/
+
+body{
+    min-width: 380px;
+    text-align: center;
+    font-family: "europa",sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #293347;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    
+}
+
+i{
+    font-size: 130%;
+    color: black;
+}
+
+i:hover{
+    color:#45a247;
+}
+
+/**********************************************************Encabezado*********************************************************/
+
+header{
+    padding:30px 70px;
+    border-style: solid;
+    border-color: #E6ECF8;
+    border-width:0px 0px 0.5px 0px;
+}
+
+@media(max-width: 992px){
+    header{
+        padding:20px 20px;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div:nth-child(1){
+    color: #45a247;
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav div:nth-child(1) div:nth-child(1) {
+    font-size: 270%;
+}
+
+nav div:nth-child(1) div:nth-child(2) {
+    font-size: 270%;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+/**********************************************************sección formulario****************************************************/
+
+section#formulario img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-55px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+section#cv div{
+    max-height:2482px;
+    max-width:3510px;
+}
+
+section#cv img{
+    margin-top: 50px;
+    width: 95%;
+    height: 95%;
+    border-style:solid;
+    border-width: 0.5px;
+    border-color: #a6a6a6;
+}
+
+h2{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+form{
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media(max-width: 992px){
+    form{
+        width: 85%;
+    }
+}
+
+label,input,textarea{
+    display: block;
+    width: 100%;
+}
+
+input, textarea{
+    height: 40px;
+    outline: none;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #45a247;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-bottom: 25px;
+    font-size: 17px;
+    color: #333333;
+}
+
+label{
+    color: rgba(41,51,71,0.65);
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+textarea{
+    height: 200px;
+    padding-top: 10px;
+}
+
+button{
+    border: 2px solid #45a247;
+    border-radius: 20px;
+    color: #45a247;
+    background-color: white;
+    transition: all 0.5s;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 80px;
+}
+
+button:hover{
+    background-color: #45a247;
+    color: white;
+}
+
+
+
